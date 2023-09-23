@@ -11,7 +11,7 @@
 </head>
 
 <body style="margin: 0; overflow: hidden;">
-    <div id="description">focus camera to image</div>
+
     <a-scene vr-mode-ui="enabled: false;" loading-screen="enabled: false;"
         arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false;" id="scene" embedded gesture-detector>
         <a-assets>
@@ -28,20 +28,5 @@
         <a-entity camera></a-entity>
     </a-scene>
 </body>
-<style>
-    #exit-button {
-        position: fixed;
-        bottom: 60px;
-        left: 50%;
-        transform: translateX(-50%);
-        color: #fff;
-        border: none;
-        border-radius: 50%;
-        font-size: 12px;
-        text-align: center;
-        line-height: 60px;
-        cursor: pointer;
-    }
-</style>
 
 </html>
